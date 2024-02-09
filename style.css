@@ -1,0 +1,143 @@
+/* basic */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+         /* взяли шрифты с google fonts и прописали правило font-family: 'Inter', sans-serif;*/
+    font-family: 'Inter', sans-serif;
+}
+
+/* header */
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    /*border: 3px solid rgb(10, 10, 10);
+    /* это правила для центровочного контейнера */
+}
+
+h1 {
+    padding-left: 190px;
+    color: #05354c;
+}
+img {
+    border-radius: 12px;
+}
+
+.header-wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex; 
+    margin: 0 auto;
+}
+
+.header-contacts{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_social{
+    display: flex;
+    list-style-type: none;
+}
+
+.social_icon_vk, .social_icon_telegram, .social_icon_whatsUp{
+    width: 32px;
+    height: 23px;  
+}
+
+.info-box{
+    width: 840px;
+    height:350px;
+    margin-top: 30px;
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #F8F8FD; 
+}
+
+.info-list > li{
+    padding: 10px;
+    margin-left: 40px;
+    padding-right: 50px;
+    list-style-type: none;
+    color: #9999A3;
+    
+}
+.right > li{
+   color: black;
+   margin-left: 10px;
+   
+}
+
+/*main*/
+.main-wrapper {
+    padding-top: 30px;
+    padding-left: 70p;
+}
+
+
+.main-box {
+    padding-left: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.main-content {
+    max-width: 64%;
+}
+
+.main-list:nth-child(1n) {
+    color: #BCBCC2;
+}
+
+.experience {
+    padding-left: 250px;
+    color:black;
+    
+}
+.experience_status {
+    
+    color: black;
+}
+.main-text {
+    background-color: #545bbf;
+    color:white;
+    border-radius: 7px;
+    padding: 5px;
+
+}
+
+.expImp {
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.more {
+    background-color: #f1A9FD;;
+    border-radius: 7px;
+    padding: 5px;
+    color:white;
+}   
+
+/*skills,language */
+.skills,.language,.aboutMe {
+    margin-left:243px;
+    margin-bottom: 50px;
+  
+}
+span {
+    margin-top: 35px;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #F5F5Fa;
+}
+.skillsP {
+    color: #BCBCC2;
+    margin-bottom: 20px;
+}
